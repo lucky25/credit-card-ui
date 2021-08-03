@@ -1,0 +1,96 @@
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  color: white;
+}
+
+.bankName {
+  position: absolute;
+  top: 1px;
+  left: 200px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.cardNumber {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: whitesmoke;
+}
+
+.holder {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 34px;
+  color: whitesmoke;
+}
+
+.expiry {
+  position: absolute;
+  bottom: 65px;
+  left: 220px;
+  font-size: 34px;
+  color: whitesmoke;
+}
+
+.expiry span {
+  font-size: 14px;
+}
+
+.cvv {
+  position: absolute;
+  bottom: 65px;
+  left: 30px;
+  font-size: 26px;
+  color: whitesmoke;
+}
+
+.cardImage {
+  max-width: 100%;
+}
+
+.sideDiv {
+  width: 45%;
+  float: left;
+}
+
+.card {
+  position: relative;
+  background-color: #922727;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
